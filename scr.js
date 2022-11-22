@@ -80,9 +80,9 @@ function sendMessage() {
         // alert("Заполните все поля!");  
         // $('#myModal').modal('show')    
     } else {
-        // var t1 = "тг ник: " + document.getElementById('tg').value + "\n";
+        var t1 = "тг ник: " + document.getElementById('tg').value + "\n";
         // var t2 = "тотал банк: " + document.getElementById('bank').value + "\n";
-        var t3 = "самые большие сделки за последние 3 месяца:\n" + document.getElementById('deal').value + "\n";
+        // var t3 = "самые большие сделки за последние 3 месяца:\n" + document.getElementById('deal').value + "\n";
         var t4 = "опиши себя в 3х словах:\n" + document.getElementById('you').value + "\n";
         var t5 = "кто тебя позвал?(если какой то друг уже в братве): " + document.getElementById('who').value + "\n";
         var t6 = "в чем удобнее платить подписку?(200 вход, 100 месяц): " + document.getElementById('pay').value + "\n";
@@ -93,7 +93,7 @@ function sendMessage() {
         var t11 = "Расскажи о своем опыте в НФТ и крипте,сколько ты в этой сфере, какие были твои успешные сейлы и тд: " + document.getElementById('tell').value + "\n";
         var t12 = "Чем занимаешься на текущем рынке?: " + document.getElementById('which').value + "\n";
 //t1 + t2 + 
-        mytext = t3 + t4 + t5 + t6 + t7 + t11 + t12 + t8 + t9 + t10
+        mytext = t1 + t4 + t5 + t6 + t7 + t11 + t12 + t8 + t9 + t10
         const obj = {
             chat_id: tg.chat_id, // Telegram chat id
             text: mytext // The text to send
