@@ -92,7 +92,7 @@ function sendMessage() {
         var t11 = "Расскажи о своем опыте в НФТ и крипте,сколько ты в этой сфере, какие были твои успешные сейлы и тд: " + document.getElementById('tell').value + "\n";
         var t12 = "Чем занимаешься на текущем рынке?: " + document.getElementById('which').value + "\n";
 
-        mytext = t1 + t2 + t3 + t4 + t5 + t6 + t7 + t8 + t9 + t10
+        mytext = t1 + t2 + t3 + t4 + t5 + t6 + t7 + t11 + t12 + t8 + t9 + t10
         const obj = {
             chat_id: tg.chat_id, // Telegram chat id
             text: mytext // The text to send
