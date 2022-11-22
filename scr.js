@@ -42,6 +42,7 @@ function sendMessage() {
         document.getElementById('who').value == "" || document.getElementById('pay').value == "" ||
         document.getElementById('who').value == "" || document.getElementById('pay').value == "" ||
         document.getElementById('dao').value == "" || document.getElementById('wait').value == "" ||
+        document.getElementById('tell').value == "" || document.getElementById('which').value == "" ||
         document.getElementById('eth').value == "" || document.getElementById('sol').value == "") {
 
         // Swal.fire({
