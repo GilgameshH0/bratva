@@ -89,6 +89,8 @@ function sendMessage() {
         var t8 = "какие ожидания?: \n" + document.getElementById('wait').value + "\n";
         var t9 = "кошелек ETH: " + document.getElementById('eth').value + "\n";
         var t10 = "кошелек SOL: " + document.getElementById('sol').value + "\n";
+        var t11 = "Расскажи о своем опыте в НФТ и крипте,сколько ты в этой сфере, какие были твои успешные сейлы и тд: " + document.getElementById('tell').value + "\n";
+        var t12 = "Чем занимаешься на текущем рынке?: " + document.getElementById('which').value + "\n";
 
         mytext = t1 + t2 + t3 + t4 + t5 + t6 + t7 + t8 + t9 + t10
         const obj = {
