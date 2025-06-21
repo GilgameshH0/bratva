@@ -1,6 +1,6 @@
 let tg = {
-    token: "5730911281:AAEagofgl7XTkAP_CpH0OThbEaRO3hzZyPk", // Your bot's token that got from @BotFather
-    chat_id: "-1001821115487" // The user's(that you want to send a message) telegram chat id
+    token: "", // Your bot's token that got from @BotFather
+    chat_id: "" // The user's(that you want to send a message) telegram chat id
 }
 
 /**
